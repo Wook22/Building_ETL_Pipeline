@@ -1,5 +1,5 @@
 # project_2
-Group 7
+Group 7:
 
 - Andrew Oceguera
 - Christopher Heng
