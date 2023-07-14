@@ -8,6 +8,18 @@ Group 7:
 
 The ETL mini project focuses on building an ETL pipeline using Python, Pandas, and Python dictionary methods or regular expressions. It involves extracting data, transforming it, creating four CSV files, creating an Entity-Relationship Diagram (ERD), and a table schema. The data is then uploaded into a Postgres database, enabling querying and analysis using SQL. The project provides hands-on experience in building an ETL pipeline, ensuring data accessibility and integration.
 
+The ETL mini project focuses on building an ETL pipeline using Python, Pandas, and Python dictionary methods or regular expressions. It involves extracting data, transforming it, creating four CSV files, creating an Entity-Relationship Diagram (ERD), and a table schema. The data is then uploaded into a Postgres database, enabling querying and analysis using SQL. The project provides hands-on experience in building an ETL pipeline, ensuring data accessibility and integration.
+
+First, we started with two separate data files: "campaign.xlsx" and "contacts.xlsx". We wanted to clean and merge these datasets to create a consolidated dataset for further analysis.
+
+For the "campaign.xlsx" file, we first loaded the data into a Pandas DataFrame called "campaign_df". We then performed several data cleaning steps, such as dropping irrelevant columns, handling missing values, and converting data types. We also formatted the "launched_date" and "end_date" columns to datetime format for easier manipulation. Next, we merged the "campaign_df" DataFrame with two additional DataFrames, "category_df" and "subcategory_df", based on common columns ("category" and "sub-category") to add more descriptive information.
+
+Then, we focused on the "contacts.xlsx" file. We loaded the data into a DataFrame called "contact_info_df" and performed data cleaning steps. We extracted relevant information from the "contact_info" column using either JSON decoding or regular expressions. We extracted the "contact_id", "name", and "email" from the "contact_info" column and created a new DataFrame called "contact_info" containing these columns. We then further processed the data by splitting the "name" column into "first_name" and "last_name" columns.
+
+To finalize the data preparation, we exported the cleaned and merged datasets as separate CSV files. The "campaign.xlsx" dataset was saved as "campaign.csv", while the "contacts.xlsx" dataset was saved as "contacts.csv".
+
+By completing these steps, we successfully cleaned and merged the data from the two separate files, creating two separate CSV files that can be easily used for further analysis or integration with other systems.
+
 ## Instructions
 The instructions for this mini project are divided into the following subsections:
 
