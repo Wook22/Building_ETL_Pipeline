@@ -16,7 +16,21 @@ Then, we focused on the "contacts.xlsx" file. We loaded the data into a DataFram
 
 To finalize the data preparation, we exported the cleaned and merged datasets as separate CSV files. The "campaign.xlsx" dataset was saved as "campaign.csv", while the "contacts.xlsx" dataset was saved as "contacts.csv".
 
-By completing these steps, we successfully cleaned and merged the data from the two separate files, creating two separate CSV files that can be easily used for further analysis or integration with other systems.
+By completing these steps, we successfully cleaned and merged the data from the two separate files, creating two separate CSV files.
+
+The SQL database named "crowdfunding" creates four tables: "campaign", "category", "subcategory", and "contacts".
+
+The "campaign" table contains information about crowdfunding campaigns, such as campaign ID, company name, description, goal amount, pledged amount, outcome, number of backers, country, currency, launch date, end date, category ID, and subcategory ID.
+
+The "category" table stores the categories of campaigns, with category ID and category name.
+
+The "subcategory" table stores the subcategories of campaigns, with subcategory ID and subcategory name.
+
+The "contacts" table contains information about campaign contacts, including contact ID, first name, last name, and email.
+
+The table relationships are established through foreign keys. The "campaign" table has foreign key constraints that reference the primary keys of the "contacts", "category", and "subcategory" tables.
+
+The code also includes SELECT statements to retrieve all rows from each table for verification purposes.
 
 ## Instructions
 The instructions for this mini project are divided into the following subsections:
