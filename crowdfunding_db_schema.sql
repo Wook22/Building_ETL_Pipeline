@@ -1,3 +1,6 @@
+
+CREATE DATABASE crowdfunding;
+
 -- DROP TABLE IF EXISTS "campaign";
 -- DROP TABLE IF EXISTS "category";
 -- DROP TABLE IF EXISTS "subcategory";
