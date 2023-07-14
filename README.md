@@ -8,8 +8,6 @@ Group 7:
 
 The ETL mini project focuses on building an ETL pipeline using Python, Pandas, and Python dictionary methods or regular expressions. It involves extracting data, transforming it, creating four CSV files, creating an Entity-Relationship Diagram (ERD), and a table schema. The data is then uploaded into a Postgres database, enabling querying and analysis using SQL. The project provides hands-on experience in building an ETL pipeline, ensuring data accessibility and integration.
 
-The ETL mini project focuses on building an ETL pipeline using Python, Pandas, and Python dictionary methods or regular expressions. It involves extracting data, transforming it, creating four CSV files, creating an Entity-Relationship Diagram (ERD), and a table schema. The data is then uploaded into a Postgres database, enabling querying and analysis using SQL. The project provides hands-on experience in building an ETL pipeline, ensuring data accessibility and integration.
-
 First, we started with two separate data files: "campaign.xlsx" and "contacts.xlsx". We wanted to clean and merge these datasets to create a consolidated dataset for further analysis.
 
 For the "campaign.xlsx" file, we first loaded the data into a Pandas DataFrame called "campaign_df". We then performed several data cleaning steps, such as dropping irrelevant columns, handling missing values, and converting data types. We also formatted the "launched_date" and "end_date" columns to datetime format for easier manipulation. Next, we merged the "campaign_df" DataFrame with two additional DataFrames, "category_df" and "subcategory_df", based on common columns ("category" and "sub-category") to add more descriptive information.
