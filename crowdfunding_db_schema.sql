@@ -15,8 +15,8 @@ CREATE TABLE "campaign" (
     "currency" varchar(3)   NOT NULL,
     "launched_date" timestamp   NOT NULL,
     "end_date" timestamp   NOT NULL,
-    "category_id" int   NOT NULL,
-    "subcategory_id" int   NOT NULL,
+    "category_id" varchar   NOT NULL,
+    "subcategory_id" varchar   NOT NULL,
     CONSTRAINT "pk_campaign" PRIMARY KEY (
         "cf_id"
      )
