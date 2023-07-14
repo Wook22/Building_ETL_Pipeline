@@ -23,7 +23,7 @@ CREATE TABLE "campaign" (
 );
 
 CREATE TABLE "category" (
-    "category_id" int   NOT NULL,
+    "category_id" varchar   NOT NULL,
     "category" varchar   NOT NULL,
     CONSTRAINT "pk_category" PRIMARY KEY (
         "category_id"
@@ -31,7 +31,7 @@ CREATE TABLE "category" (
 );
 
 CREATE TABLE "subcategory" (
-    "subcategory_id" int   NOT NULL,
+    "subcategory_id" varchar   NOT NULL,
     "subcategory" varchar   NOT NULL,
     CONSTRAINT "pk_subcategory" PRIMARY KEY (
         "subcategory_id"
