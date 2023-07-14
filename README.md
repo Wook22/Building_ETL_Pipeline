@@ -40,11 +40,9 @@ The instructions for this mini project are divided into the following subsection
 
 3. Extract and transform the `crowdfunding.xlsx` Excel data to create a subcategory DataFrame that has the following columns:
 
-        * A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
-
-        * A "subcategory" column that contains only the subcategory titles
-
-        * The following image shows this subcategory DataFrame:
+   * A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
+   * A "subcategory" column that contains only the subcategory titles
+   * The following image shows this subcategory DataFrame:
 
 ![](images/2.png)
 
