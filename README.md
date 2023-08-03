@@ -1,4 +1,5 @@
-# project_2
+# Building ETL Pipline
+
 Group 7:
 
 - Andrew Oceguera
