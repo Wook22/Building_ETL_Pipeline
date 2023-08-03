@@ -1,7 +1,5 @@
 # Building ETL Pipline
 
-Group 7:
-
 - Andrew Oceguera
 - Christopher Heng
 - Jongwook choe
